@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1586771107445-d3ca888129ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}*/
+
+.top-wrapper {
+  position: relative;
+  padding: 180px 0 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.top-wrapper::before {
+  content: "";
+  background-image: url(https://intertelinvestigations.com/wp-content/uploads/criminal-investigation-1300x700.jpg);
+  background-size: cover;
+  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+}
+
+.content {
+  background: rgb(255, 255, 255); /* Fallback color */
+  background: rgb(8, 0, 0);
+  opacity: 0.8;
+}
+
+.top-wrapper h1 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/*.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}*/
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 10px;
+  float: left;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 5px;
+  /* Change the display property to none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.icons {
+  width: 128px;
+  height: 128px;
+}
+
+.lesson-icon p {
+  position: relative;
+  top: 80%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+.message-wrapper {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message-wrapper a{
+  color: #ffffff;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #9f98e8;
+  cursor: pointer;
+  box-shadow: 0 7px #000000;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*footer img {
+  width: 100px;
+  position: relative;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  opacity: 50;
+  position: relative;
+  text-align: initial;
+  padding-left: 25px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(106, 108, 109, 0.9); /*3b5998
+  height: fit-content;
+}
