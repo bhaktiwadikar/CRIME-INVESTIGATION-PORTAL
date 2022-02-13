@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriFriend</title>
+    <title>C. I. ANALYSIS</title>
 
     <link rel="stylesheet" href="UserPageStyle.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -12,16 +12,14 @@
     <header>
       <div class="container">
         <div class="header-left">
-          <img class="logo" src="https://img.freepik.com/free-vector/farm-fresh-organic-icon_53876-40456.jpg?size=626&ext=jpg">
-          <p>AgriFriend</p>
+          <img class="logo" src="eagle_logo.png">
+          <p>C. I. ANALYSIS</p>
         </div>
         <!-- Add a menu icon here -->
         <!--<span class="fa fa-bars menu-icon"></span>-->
   
         <div class="header-right">
           <a href="index.html">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
           <a href="#">Welcome!</a>
         </div>
       </div>
@@ -40,24 +38,72 @@
       <div class="row">
         <div class="column">
           <div class="card">
-            <img class="icon" src="https://pluspng.com/img-png/png-location-location-black-png-image-4231-1200.png">
-            <h3>Case Number</h3>
-            <p>Click the card</p>
+            <img class="icon" src="http://www.assetmanagementexpert.com/resources/images/incidents1%20trans.png">
+            <h3>Incident Number</h3>
 
+            <div class="login">
+                <form method="post">
+                  <input type="text" name="u" placeholder="Enter Incident Number"/>
+                  <a href="UserPage.html"><button type="submit" class="btn btn-primary btn-block btn-large">Submit</button></a>
+                </form>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img class="icon" src="http://cdn.onlinewebfonts.com/svg/img_348770.png">
+            <h3>Offence Code</h3>
+
+            <div class="login">
+                <form method="post">
+                  <input type="text" name="u" placeholder="Enter Offence Code"/>
+                  <a href="UserPage.html"><button type="submit" class="btn btn-primary btn-block btn-large">Submit</button></a>
+                </form>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img class="icon" src="https://cdn.onlinewebfonts.com/svg/img_390449.png">
+            <h3>Offence Type</h3>
             <div class="list">
               <select name="state" id="state" class="form-control">
-                <option value="Select State">Select Case Number</option>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                <option value="Assam">Assam</option>
-                <option value="Bihar">Bihar</option>
-                <option value="Chandigarh">Chandigarh</option>
-                <option value="Chhattisgarh">Chhattisgarh</option>
-                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                <option value="Daman and Diu">Daman and Diu</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Select State">Select Offence Type</option>
+                <option value="AUTO THEFT">AUTO THEFT</option>
+                <option value="TRESPASSING">TRESPASSING</option>
+                <option value="INVESTIGATE PERSON">INVESTIGATE PERSON</option>
+                <option value="VANDALISM">VANDALISM</option>
+                <option value="SICK ASSIST">SICK ASSIST</option>
+                <option value="BURGLARY - RESIDENTIAL">BURGLARY - RESIDENTIAL</option>
+                <option value="THREATS TO DO BODILY HARM">THREATS TO DO BODILY HARM</option>
+                <option value="SUDDEN DEATH">SUDDEN DEATH</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img class="icon" src="https://pluspng.com/img-png/png-location-location-black-png-image-4231-1200.png">
+            <h3>District</h3>
+            <div class="list">
+              <select name="state" id="state" class="form-control">
+                <option value="Select State">Select District</option>
+                <option value="C6">C6</option>
+                <option value="D4">D4</option>
+                <option value="A1">A1</option>
+                <option value="C11">C11</option>
+                <option value="B3">B3</option>
+                <option value="B2">B2</option>
+                <option value="E18">E18</option>
+                <option value="D14">D14</option>
+                <option value="E5">E5</option>
+                <option value="E13">E13</option>
+                <option value="A15">A15</option>
               </select>
             </div>
           </div>
@@ -67,16 +113,7 @@
           <div class="card">
             <img class="icon" src="https://cdn.onlinewebfonts.com/svg/img_122944.png">
             <h3>Date</h3>
-            <p>Click the card</p>
-            <div class="list">
-              <select name="state" id="state" class="form-control">
-                <option value="Select State">Select Date</option>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                <option value="Assam">Assam</option>
-              </select>
-            </div>
+            <input type="date">
           </div>
         </div>
 
@@ -84,33 +121,7 @@
           <div class="card">
             <img class="icon" src="https://www.viennahydro.com/wp-content/uploads/icon_timeline.png">
             <h3>Time</h3>
-            <p>Click the card</p>
-            <div class="list">
-              <select name="state" id="state" class="form-control">
-                <option value="Select State">Select Time</option>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                <option value="Assam">Assam</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <img class="icon" src="https://pluspng.com/img-png/png-location-location-black-png-image-4231-1200.png">
-            <h3>Region</h3>
-            <p>Click the card</p>
-            <div class="list">
-              <select name="state" id="state" class="form-control">
-                <option value="Select State">Select Region</option>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                <option value="Assam">Assam</option>
-              </select>
-            </div>
+            <input type="time">
           </div>
         </div>
       </div>
