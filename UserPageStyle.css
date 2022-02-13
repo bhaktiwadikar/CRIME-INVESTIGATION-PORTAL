@@ -103,7 +103,7 @@ header {
 .top-wrapper {
   position: relative;
   height: auto;
-  padding: 180px 0 100px 0;
+  padding: 60px 0 40px 0;
   display: flex;
   height: 100px;
   /*align-items: center;
@@ -122,9 +122,7 @@ header {
   opacity: 0.65;
 }
 
-.content {
-  height: 50px;
-}
+
 
 .top-wrapper h1 {
   position: relative;
@@ -133,7 +131,7 @@ header {
   font-size: 45px;
   letter-spacing: 5px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .top-wrapper p {
@@ -146,7 +144,7 @@ header {
 .column {
   text-align: center;
   width: 150px;
-  height: 400px;
+  height: 250px;
 }
 
 .card {
@@ -154,7 +152,7 @@ header {
   transition: 0.1s;
   border-radius: 5px; /* 5px rounded corners*/ 
   width: 250px;
-  height: 400px;
+  height: 220px;
   color: #545755;
 }
 
@@ -163,15 +161,20 @@ header {
   transition: 0.1s;
 }
 
+.card h3{
+  color: #241f1f;
+}
+
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
   border-radius: 5px 5px 0 0;
 }
 
 .icon {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
 }
+
 
 /*.card p {
   position: relative;
@@ -182,8 +185,8 @@ img {
 
 .column {
   float: left;
-  width: 25%;
-  padding: 0 10px;
+  width: 33.33%;
+  padding: 0 100px;
 }
 
 /* Remove extra left and right margins, due to padding */
