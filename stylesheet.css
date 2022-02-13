@@ -32,7 +32,7 @@ a {
 
 .top-wrapper {
   position: relative;
-  padding: 180px 0 100px 0;
+  padding: 300px 0 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,14 +42,14 @@ a {
 .top-wrapper::before {
   content: "";
   background-image: url(https://intertelinvestigations.com/wp-content/uploads/criminal-investigation-1300x700.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .content {
@@ -235,7 +235,7 @@ header {
   box-shadow: none;
 }
 
-/*footer img {
+footer img {
   width: 100px;
   position: relative;
 }
@@ -246,12 +246,16 @@ footer p {
   opacity: 50;
   position: relative;
   text-align: initial;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 footer {
   padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: rgba(106, 108, 109, 0.9); /*3b5998
+  padding-bottom: 50px;
+  background-color: rgba(106, 108, 109, 0.9); /*3b5998*/
   height: fit-content;
+}
+
+.eagle{
+  padding-left: 200px 0;
 }
